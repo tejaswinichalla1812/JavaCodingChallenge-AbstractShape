@@ -29,15 +29,15 @@ Once verified, use Netbeans to create a new concrete subclass.
 
 ## Demo Your Class
 
-- Instantiate your class
-- Call its methods
-- Output useful information to the user
+- Instantiate your class in a public static void main().
+- Call its methods.
+- Output useful information to the user.
 
 ## After Everything Works
 
-- Git add your new class
-- Git commit your changes
-- Git push up to your repo
+- Git add your new class.
+- Git commit your changes.
+- Git push up to your repo.
 
 Share a link to your completed challenge in the cloud.
 
