@@ -40,3 +40,19 @@ Once verified, use Netbeans to create a new concrete subclass.
 - Git push up to your repo
 
 Share a link to your completed challenge in the cloud.
+
+-----
+Working in Netbeans
+
+![Example in Netbeans](./44-542-ChallengeNetbeans.PNG)
+
+-----
+Quick and Easy Alternative - JDoodle Online IDE
+
+You can also complete the challenge using the online [JDoodle Advanced Java IDE](https://www.jdoodle.com/online-java-compiler-ide/).
+
+- Create your files in the JDoodle online editor.
+- Omit package statements at the top of each file.
+- Use the 3 dots to the left of your new subclass to "Make it as start file".
+
+![Example in JDoodle](./44-542-ChallengeJDoodle.PNG)
