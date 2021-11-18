@@ -14,7 +14,7 @@ public class Circle extends AbstractShape {
         super("Circle");
         this.radius = radiusIn;
     }
-
+    
     @Override
     public double getArea() {
         return Math.PI * radius * radius;
@@ -38,6 +38,8 @@ public class Circle extends AbstractShape {
         System.out.println("Circle");
         System.out.println("===========================================");
         System.out.println("Given radius: " + r);
+        System.out.println("Type is: "+type);
+        
         System.out.println("A circle's area will be " + area);
         System.out.println("A circle's perimeter will be " + perimeter);
         System.out.println("===========================================");
