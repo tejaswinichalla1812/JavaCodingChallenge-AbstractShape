@@ -6,34 +6,34 @@ package edu.nwmissouri.challenge;
 
 /**
  *
- * @author S545710
+ * @author Tejaswini Challa
  */
 public class Rectangle extends AbstractShape {
 
     /**
      * @param args the command line arguments
      */
-     private double width;
-     private double height;
-      public Rectangle(double width, double height) {
-    // Set the shape name as "Rectangle"
-    super("Rectangle");
-    this.width = width;
-    this.height = height;
-  }
-      
+    private double width;
+    private double height;
 
-  // Provide an implementation for inherited abstract getArea() method
-     @Override
-  public double getArea() {
-    return width * height;
-  }
+    public Rectangle(double width, double height) {
 
-  // Provide an implementation for inherited abstract getPerimeter() method
-     @Override
-  public double getPerimeter() {
-    return 2.0 * (width + height);
-  }
+        super("Rectangle");
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public double getArea() {
+        return width * height;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return 2.0 * (width + height);
+    }
+    // add an executable main() method to test it
+
     public static void main(String[] args) {
         // TODO code application logic here
         double width = 10;
@@ -48,17 +48,11 @@ public class Rectangle extends AbstractShape {
         System.out.println("===========================================");
         System.out.println("Given width: " + width);
         System.out.println("Given height: " + height);
-        System.out.println("Type is: "+rect_type);
+        System.out.println("Type is: " + rect_type);
         System.out.println("A Rectangle's area will be " + rect_area);
         System.out.println("A Rectangle's perimeter will be " + rect_perimeter);
-        System.out.println("===========================================");  
- 
-
- 
-
-  
-}
+        System.out.println("===========================================");
 
     }
-    
 
+}

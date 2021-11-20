@@ -6,9 +6,9 @@ package edu.nwmissouri.challenge;
 
 /**
  *
- * @author S545710
+ * @author Tejaswini Challa
  */
-public class EquilateralTriangle extends AbstractShape{
+public class EquilateralTriangle extends AbstractShape {
 
     /**
      * @param args the command line arguments
@@ -21,21 +21,22 @@ public class EquilateralTriangle extends AbstractShape{
         super("EquilateralTriangle");
         this.e_length = e_length;
     }
+
     @Override
     public double getArea() {
-       return (Math.sqrt(3)/4)*(e_length*e_length);
+        return (Math.sqrt(3) / 4) * (e_length * e_length);
     }
-    
-        
 
     @Override
     public double getPerimeter() {
         return 3 * e_length;
     }
+    // add an executable main() method to test it
+
     public static void main(String[] args) {
         // TODO code application logic here
         double e_length = 6;
-        
+
         EquilateralTriangle equi = new EquilateralTriangle(e_length);
         String equi_type = equi.getShapeType();
         double equi_area = equi.getArea();
@@ -45,13 +46,11 @@ public class EquilateralTriangle extends AbstractShape{
         System.out.println("EquilateralTriangle");
         System.out.println("===========================================");
         System.out.println("Given length: " + e_length);
-        System.out.println("Type is: "+equi_type);
+        System.out.println("Type is: " + equi_type);
 
         System.out.println("A EquilateralTriangle's area will be " + equi_area);
         System.out.println("A EquilateralTriangle's perimeter will be " + equi_perimeter);
-        System.out.println("==========================================="); 
+        System.out.println("===========================================");
     }
 
-    
-    
 }

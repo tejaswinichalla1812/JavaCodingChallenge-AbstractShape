@@ -6,13 +6,13 @@ package edu.nwmissouri.challenge;
 
 /**
  *
- * @author S545710
+ * @author Tejaswini Challa
  */
-public class Square extends AbstractShape{
+public class Square extends AbstractShape {
 
     /**
      * @param args the command line arguments
-     * @return 
+     * @return
      */
     // private attribute
     double s_length;
@@ -22,21 +22,22 @@ public class Square extends AbstractShape{
         super("Square");
         this.s_length = s_length;
     }
-    
 
     @Override
     public double getArea() {
         return s_length * s_length;
-            }
+    }
 
     @Override
     public double getPerimeter() {
-      return 4 * s_length;  
+        return 4 * s_length;
     }
+
+    // add an executable main() method to test it
     public static void main(String[] args) {
         // TODO code application logic here
         double s_length = 5;
-        
+
         Square square = new Square(s_length);
         String square_type = square.getShapeType();
         double s_area = square.getArea();
@@ -46,12 +47,10 @@ public class Square extends AbstractShape{
         System.out.println("Square");
         System.out.println("===========================================");
         System.out.println("Given length: " + s_length);
-        System.out.println("Type is: "+square_type);
+        System.out.println("Type is: " + square_type);
         System.out.println("A Sqaure's area will be " + s_area);
         System.out.println("A Square's perimeter will be " + s_perimeter);
-        System.out.println("===========================================");  
+        System.out.println("===========================================");
     }
 
-    
-    
 }
